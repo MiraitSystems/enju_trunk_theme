@@ -1,0 +1,22 @@
+en:
+  activerecord:
+    models:
+      theme: Theme
+
+    attributes:
+      theme:
+        name: Name
+        description: Description
+        publish: Publish
+        note: Note
+        position: Position
+
+  page:
+    batch_change_theme: "Add Theme"
+    batch_change_theme_added: "Added theme of manifestations in the basket to %{title}."
+    batch_change_theme_failed: "Failed theme of manifestations in the basket."
+    theme:
+      theme_list: Theme_list
+      no_matches_found: No matches found
+      hot_topic: Hot topic
+      related_manifestation: Related manifestation

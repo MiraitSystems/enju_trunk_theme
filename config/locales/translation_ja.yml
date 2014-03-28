@@ -1,0 +1,22 @@
+ja:
+  activerecord:
+    models:
+      theme: テーマ
+
+    attributes:
+      theme:
+        name: 名前
+        description: 説明
+        publish: 公開範囲
+        note: 注記
+        position: 優先度
+
+  page:
+    batch_change_theme: "テーマを追加"
+    batch_change_theme_added: " %{title} をテーマに設定しました。"
+    batch_change_theme_failed: "テーマ追加に失敗しました。"
+    theme:
+      theme_list: テーマ一覧
+      no_matches_found: テーマが見つかりません
+      hot_topic: 話題のテーマ
+      related_manifestation: 関連する資料
